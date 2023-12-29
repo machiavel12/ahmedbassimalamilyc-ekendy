@@ -1,0 +1,724 @@
+
+.body1{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    background-image: url("bakzs.jpg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.groupe {
+    display: flex;
+    box-shadow: 0 10px 30px black;
+    background-color: rgb(25, 25, 112);
+
+}
+
+.parent {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin-top: -10px;
+    margin-left: -8px;
+    clip-path: polygon(1px 0, 100.5% 0, 60% 100%, 0% 100%);
+
+}
+
+.enfant {
+    background-color:rgb(25, 25, 112) ;
+    width: 65%;
+    margin-top: -10px;
+    margin-right: -110px;
+    position: relative;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.t{
+     color:rgb(25, 25, 112) ;
+     position: relative;
+     left: 640px;
+     bottom: -80px;
+}
+.s{
+    color:rgb(255, 255, 255) ;
+    position: relative;
+    right: 202px;
+     bottom: -80px;
+}
+.desc{
+    color:rgb(25, 25, 112) ;
+}
+h2{
+    font-size: 35px;
+    color:rgb(25, 25, 112) ; 
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contain{
+    display: flex;
+width: 103.390%;
+height: 500px;
+  
+    margin-left: -10px;
+    margin-right: -30px;
+
+ 
+
+}
+.AI{
+    background-color:#010C80 ;
+    width: 33.3%;
+    height: 500px;
+   
+    opacity: 87%;
+ 
+    
+}
+.CG{
+    background-color:#1D1D27 ;
+    
+    width: 31%;
+    height: 500px;
+    opacity: 87%;
+    
+   
+  
+    
+}
+.DSI{
+    background-color:rgba(255, 255, 255, 0.963) ;
+    opacity: 87%;
+    width: 33.3%;
+    height: 500px;
+   
+    
+}
+.rob{
+    text-align: center;
+    width: 250px; 
+    height: auto;
+}
+.CG:hover{
+   transform: scale(1.03);
+   transition: transform 1 s ease-in;
+   box-shadow: 0 10px 30px rgb(39, 37, 37);
+   cursor: pointer;
+}
+.AI:hover{
+    transform: scale(1.03);
+    transition: transform 1 s ease-in;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    cursor: pointer;
+ }
+ .DSI:hover{
+    transform: scale(1.03);
+    transition: transform 1 s ease-in;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    cursor: pointer;
+ }
+.dai{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.dsi{
+   
+    width: 250px; 
+    height: auto;
+}
+
+.DSI:hover+.dsi {
+    transform: rotateX(50deg);
+    transition: transform 0.8s ease;
+}
+.dsii{
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.cg1{
+    width: 250px; 
+    height: auto;
+}
+.cg2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.inscri{
+    width: 100%;
+    height: 500px;
+    background-color: transparent;
+text-align: center;}
+.tit{
+    color:rgb(0, 0, 0);
+}
+.container{
+    display: flex;
+    width: 50%;
+    height: 280px;
+    position: relative;
+    top: -230px;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+
+}
+.fete{
+    background-image: url("fete.jpg");
+   background-size: cover;
+    width: 50%;
+    clip-path: polygon(1px 0, 100.5% 0, 60% 100%, 0% 100%);
+}
+.journée{
+    width: 50%;
+
+}
+.integ{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+   
+
+}
+.tit2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+}
+.container2{
+    display: flex;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    top: -230px;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 1009px;
+
+}
+.compet{
+    background-image: url("compet.avif");
+    width: 50%;
+    clip-path: polygon(1px 0, 100.5% 0, 60% 100%, 0% 100%);
+    background-size: cover;
+   
+}
+.tit3{
+    color: black;
+}
+.com{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+
+}
+.competi{
+ 
+    width: 50%;
+    height: 400px;
+  
+  
+   
+}
+.container3{
+    display: flex;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    top: -230px;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    
+}
+.bur{
+    background-image: url("bdee.PNG");
+    width: 40%;
+    background-size: 330px;
+    clip-path: polygon(1px 0, 100.5% 0, 60% 100%, 0% 100%);
+
+
+}
+.bureau{
+    width: 50%;
+}
+.tit4{
+    color: black;
+}
+.br{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+
+button{
+    background-color:rgb(25, 25, 112) ;
+    color:rgb(255, 255, 255) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    top: -120px;
+}
+.rej:hover{
+    transform: scale(1.03);
+    transition: transform 0.8 s ease;
+ 
+    cursor: pointer;
+}
+
+
+.descri{
+    color:rgb(255, 255, 255) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.insta{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    right: -300px;
+    bottom: -100px;
+}
+.tiktok{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    right: -300px;
+    bottom: -100px;
+}
+.resi{
+    color:rgb(255, 255, 255) ;
+    position: relative;
+    right: -460px;
+    bottom: -60px;
+}
+.bt{color:rgb(255, 255, 255) ;
+    position: relative;
+    right: -650px;
+}
+.btss{
+    width: 120px;
+    height: 130px;
+}
+.popup{
+    position: absolute;
+    bottom: -2250px;
+    left: 700px;
+    width: 30%;
+    height: 210px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: none;
+    box-shadow: 0 10px 30px black;
+    z-index: 2;
+}
+.popup p{
+    color: black;
+}
+.inscrip{
+    width: 20%;
+    height: 40px;
+    position: relative;
+    top: -1%;
+    left: 8%;
+
+}
+.annuler{
+    width: 9%;
+    background-color: white;
+    color: black;
+    border: none;
+    position: relative;
+    left: 35%;
+    top: -142px;
+    height: 40px;
+}
+.inscrip:hover{
+    transform: scale(1.03);
+    transition: transform 0.8 s ease;
+ 
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+.shadow{
+    width: 100vw;
+    min-height: 100vh;
+    background: rgb(0, 0, 0,.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+   display: none;
+    z-index: 1;
+    transition: transform 1s ease;
+}
+a{
+    
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.btsz{
+color: rgb(251, 251, 251);
+
+position: relative;
+    left: 43px;
+    top: 10px;
+}
+.kendy{
+    color:rgb(25, 25, 112);
+position: relative;
+top: -57px;
+left: -5px;
+}
+.body2{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.prems {
+    width: 5%;
+    background-color: rgb(25, 25, 112);
+    clip-path: polygon(1px 0, 100.5% 0, 60% 100%, 0% 100%);
+    position: relative;
+    top: -15.8px;
+    left: -20px;
+    height: 50px;
+    border-bottom: groove 1px black;
+   
+}
+
+.secund {
+    width: 5%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 70px;
+    top: -15.8px;
+    height: 50px;
+  
+}
+.dsi2{
+    width: 30%;
+    position: relative;
+  top: -40px;
+}
+#xlm{
+    width: 10%;
+    border-radius: 5px;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    top: -20px;
+}
+.emploi{
+    width: 24%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    
+  
+ 
+}
+.enseignement{
+    width: 24%;
+    height: auto;
+    background-color: rgb(25, 25, 112);
+    color: white;
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 270px;
+   
+  
+}
+.groupa{
+    display: flex;
+}
+.groupa2{
+    display: flex;
+}
+.prérequis{
+    width: 24%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 570px;
+   
+  
+}
+.emploi2{
+    width: 490px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 1px;
+    display: none;
+
+ 
+}
+.enseignement2{
+    width: 490px;
+    height: auto;
+    background-color: rgb(25, 25, 112);
+    color: white;
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 265px;
+    display: none;
+    
+  
+}
+
+.prérequis2{
+    width: 490px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 563.5px;
+    display: none;
+  
+}
+
+.emploi3{
+    width: 24%;
+    height: auto;
+    background-color: rgb(25, 25, 112);
+    color: white;
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    
+  
+ 
+}
+.enseignement3{
+    width: 24%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 270px;
+   
+  
+}
+.groupa3{
+    display: flex;
+}
+.groupa4{
+    display: flex;
+}
+.prérequis3{
+    width: 24%;
+    height: auto;
+    background-color: rgb(24, 24, 111);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 570px;
+   
+  
+}
+.emploi4{
+    width: 490px;
+    height: auto;
+    background-color: rgb(25, 25, 112);
+    color: white;
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 1px;
+    display: none;
+
+ 
+}
+.enseignement4{
+    width: 490px;
+    height: auto;
+    background-color: white;
+   
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 265px;
+    display: none;
+    
+  
+}
+
+.prérequis4{
+    width: 490px;
+    height: auto;
+    background-color: rgb(25, 25, 112);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 563.5px;
+    display: none;
+  
+}
+.emploi5{
+    width: 24%;
+    height: auto;
+    background-color: #1D1D27;
+    color: white;
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    
+  
+ 
+}
+.enseignement5{
+    width: 24%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    color:#1D1D27;
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 270px;
+   
+  
+}
+.groupa5{
+    display: flex;
+}
+.groupa6{
+    display: flex;
+}
+.prérequis5{
+    width: 24%;
+    height: auto;
+    background-color: #1D1D27;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 570px;
+   
+  
+}
+.emploi6{
+    width: 490px;
+    height: auto;
+    background-color: #1D1D27;
+    color: white;
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 1px;
+    display: none;
+
+ 
+}
+.enseignement6{
+    width: 490px;
+    height: auto;
+    background-color: white;
+   color: #1D1D27;
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 265px;
+    display: none;
+    
+  
+}
+
+.prérequis6{
+    width: 490px;
+    height: auto;
+    background-color: #1D1D27;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(39, 37, 37);
+    position: relative;
+    left: 563.5px;
+    display: none;
+  
+}
+.intro{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer {
+    position: absolute;
+    bottom: -2500px;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.res{
+    position: relative;
+    left: 250px;
+    top: -10px;
+}
+.loca{
+    position: relative;
+    left: 450px;
+    top: -10px;
+}
+.localis{
+    width: 80px;
+    height: 80px;
+}
+.infosloca{
+    position: relative;
+    left: 952px;
+   
+
+}
+.insta{
+    width: 50px;
+    height: 50px;
+    left: 205px;
+    position: relative;
+    top: 60px;
+}
+.tiktok{
+    width: 50px;
+    height: 50px;
+    left: 80px;
+    position: relative;
+    top: 60px;
+}
+.conta{
+    position: relative;
+    left: 1400px;
+    top: -85px;
+}
+.infosconta{
+    position: relative;
+    left: 1400px;
+    top: -85px;
+}
